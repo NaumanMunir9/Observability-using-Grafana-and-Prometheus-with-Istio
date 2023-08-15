@@ -143,12 +143,6 @@ kubectl apply -f istio-samples-addons -R
 kubectl rollout status deployment/kiali -n istio-system
 ```
 
-#### Access the Kiali dashboard
-
-```shell
-istioctl dashboard kiali
-```
-
 ---
 
 ### k6 - open-source load testing tool
