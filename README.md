@@ -139,7 +139,7 @@ Use the following instructions to deploy the Kiali dashboard, along with Prometh
 #### Install Kiali, Grafana and Prometheus along with other addons
 
 ```she
-kubectl apply -f istio-samples-addons
+kubectl apply -f istio-samples-addons -R
 kubectl rollout status deployment/kiali -n istio-system
 ```
 
