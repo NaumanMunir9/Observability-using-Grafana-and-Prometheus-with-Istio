@@ -1,4 +1,4 @@
-# Observability using Grafana and Prometheus with Istio
+# Kubernetes Observability using Grafana and Prometheus with Istio
 
 [Istio Documentation](https://istio.io/latest/docs/)
 
