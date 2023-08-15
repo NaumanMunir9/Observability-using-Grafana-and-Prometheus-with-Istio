@@ -48,16 +48,6 @@ istioctl install --set profile=demo -y
 
 ### Deploying the application
 
-To run the sample with Istio requires no changes to the application itself. Instead, you simply need to configure and run the services in an Istio-enabled environment, with Envoy sidecars injected along side each service. The resulting deployment will look like this:
-
-[Application with Istio](https://istio.io/latest/docs/examples/bookinfo/withistio.svg)
-
-All of the microservices will be packaged with an Envoy sidecar that intercepts incoming and outgoing calls for the services, providing the hooks needed to externally control, via the Istio control plane, routing, telemetry collection, and policy enforcement for the application as a whole.
-
-The default Istio installation uses automatic sidecar injection. Label the namespace that will host the application with istio-injection=enabled.
-
-Add a namespace label to instruct Istio to automatically inject Envoy sidecar proxies when you deploy your application later.
-
 ```shell
 k label namespace default istio-injection=enabled
 ```
