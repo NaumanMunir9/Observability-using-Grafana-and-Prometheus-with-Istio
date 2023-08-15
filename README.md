@@ -102,8 +102,6 @@ export INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -
 export SECURE_INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -o jsonpath='{.spec.ports[?(@.name=="https")].port}')
 ```
 
-### Ensure an IP address and ports were successfully assigned to each environment variable
-
 #### Set GATEWAY_URL
 
 ```shell
