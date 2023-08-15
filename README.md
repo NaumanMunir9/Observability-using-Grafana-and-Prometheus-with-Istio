@@ -56,8 +56,6 @@ k label namespace default istio-injection=enabled
 
 ### Deploy the sample application
 
-We will deploy our application in ArgoCD
-
 ```shell
 k apply -f https://raw.githubusercontent.com/istio/istio/release-1.18/samples/bookinfo/platform/kube/bookinfo.yaml
 ```
