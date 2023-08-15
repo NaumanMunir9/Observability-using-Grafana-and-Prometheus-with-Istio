@@ -1,20 +1,18 @@
 # Kubernetes Observability using Grafana and Prometheus with Istio
 
-[Istio Documentation](https://istio.io/latest/docs/)
+![Kubernetes Observability using Grafana and Prometheus with Istio](/architecture-diagram/KubernetesObservabilityGrafanaPrometheus.png)
+
+---
+
+## Grafana and Prometheus Architecture
+
+![Grafana and Prometheus Architecture](/architecture-diagram/Kubernetes%20Observability%20using%20Grafana%20and%20Prometheus%20with%20Istio.png)
 
 ---
 
 ## Istio Architecture
 
-![Istio Service Mesh Architecture](https://istio.io/latest/docs/ops/deployment/architecture/arch.svg)
-
----
-
-## Application Architecture
-
-![Application Architecture](https://istio.io/latest/docs/examples/bookinfo/withistio.svg)
-
-This application is polyglot, i.e., the microservices are written in different languages. It’s worth noting that these services have no dependencies on Istio, but make an interesting service mesh example, particularly because of the multitude of services, languages and versions for the reviews service.
+[Istio Service Mesh Architecture](https://istio.io/latest/docs/ops/deployment/architecture/arch.svg)
 
 ---
 
