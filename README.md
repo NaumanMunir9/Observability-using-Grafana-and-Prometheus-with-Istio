@@ -136,7 +136,7 @@ Istio integrates with several different telemetry applications. These can help y
 
 Use the following instructions to deploy the Kiali dashboard, along with Prometheus, Grafana, and Jaeger.
 
-#### Install Kiali and the other addons
+#### Install Kiali, Grafana and Prometheus along with other addons
 
 ```she
 kubectl apply -f istio-samples-addons
